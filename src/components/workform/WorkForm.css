@@ -1,0 +1,45 @@
+.cardWorkForm {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.cardWorkFormStyle {
+  width: 500px;
+}
+
+.cardWorkFormContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 450px;
+}
+
+.cardWorkFormActions {
+  justify-content: center;
+}
+.selecterKnop{
+  background-color: white;
+  color:rgb(98, 92, 92);
+  border-style: none;
+  font-size: large;
+  width: 500px;
+  height: 50px;
+}
+.selecterKnop:hover{
+  color: #009da5;
+}
+.selectie{
+  background-color: white;
+  color:rgb(98, 92, 92);
+  border-style: none;
+  font-size: medium;
+  width: 230px;
+  height: 30px;
+}
+.selectie:hover{
+  color: #009da5;
+}

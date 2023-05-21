@@ -1,0 +1,25 @@
+.naviBar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.navName {
+  color: white;
+  background: none;
+  border-style: none;
+  border-color: white;
+  font-size: medium;
+}.noDec{
+  text-decoration: none;
+  color: white;
+}
+.Black{
+  color:black;
+}
+.center{
+  text-align: center;
+}
+.topRight{
+  left:100%;
+  color: brown;
+}

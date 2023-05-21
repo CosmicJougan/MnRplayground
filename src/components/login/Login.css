@@ -1,0 +1,22 @@
+.cardLogin {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cardLoginStyle {
+  width: 500px;
+  border-style: groove;
+  border-color: rgba(0, 0, 0, 0.74);
+}
+
+.cardLoginActions {
+  justify-content: center;
+}
+
+.loginSignupText {
+  font-weight: 600px;
+  text-align: center;
+  font-size: 20px;
+}

@@ -1,0 +1,61 @@
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+}
+.DataCard {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 3§àpx;
+}
+.DataCardContents {
+  position: relative;
+  right: 0px;
+  margin-top: 10px;
+  width: 100px;
+}
+.followerStyle {
+  height: 350px;
+  width: 360px;
+}
+
+.cardFormActions {
+  justify-content: center;
+}
+
+.centreren {
+  justify-content: center;
+  text-align: center;
+}
+.datumChanger {
+  width: 360px;
+  height: 50px;
+  border-style: hidden;
+  background-color: white;
+  font-size: large;
+  color: rgb(192, 185, 185);
+}
+.datumChanger:hover {
+  color: #009da5;
+}
+.right {
+  position: relative;
+  margin-right: 5px;
+}
+.m-3{
+  margin-top:10px;
+}
+.td {
+  width: 160px;
+  text-align: center;
+  padding: 5px;
+}
+.nameStyle{
+  color:rgb(98, 98, 242)
+}

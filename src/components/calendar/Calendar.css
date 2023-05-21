@@ -1,0 +1,24 @@
+/* .react-calendar__tile--now {
+  background: #009da5;
+} */
+
+.cardCalendar {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+  text-align: center;
+}
+
+.cardCalendarStyle {
+  width: 500px;
+}
+
+.cardCalendarContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 500px;
+}
