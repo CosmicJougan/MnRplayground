@@ -64,3 +64,13 @@ body {
   align-items: center;
   min-height: 70vh;
 }
+.Knop {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.ReqTime {
+  width: 150px;
+  height: 50px;
+  border-radius: 10%;
+}

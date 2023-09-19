@@ -10,6 +10,7 @@ import {
 import { clockStateInterface, ClockState } from "models/Models";
 
 import "./Clock.css";
+import { color } from "@mui/system";
 
 export default function Clock() {
   const [time, setTime] = useState(new Date(0));
@@ -110,19 +111,20 @@ export default function Clock() {
     );
   };
 
+  const requestTime = async () => {
+    await 
+  }
+
   return (
     <div className="clock-flex-container">
-      <div className="outer-wrapper">
-        <div className="inner-wrapper">
-          <h2 className="clock">
-            {time.toLocaleTimeString("en-GB", { timeZone: "UTC" })}
-          </h2>
-        </div>
+      <div className="inner-wrapper">
+        <h2 className="clock"></h2>
       </div>
       {clockState === ClockState.Off ? (
         <Button
           variant="contained"
-          style={{ background: "#009da5" }}
+          style={{ background: "#202020", borderRadius: 100 }}
+          className="Knop"
           size="large"
           onClick={start}
         >
@@ -136,7 +138,8 @@ export default function Clock() {
         <div>
           <Button
             variant="contained"
-            style={{ background: "#009da5" }}
+            style={{ background: "#505050", borderRadius: 100 }}
+            className="Knop"
             size="large"
             onClick={stop}
           >
@@ -179,6 +182,17 @@ export default function Clock() {
       ) : (
         ""
       )}
+      <div>
+        <Button
+          variant="contained"
+          style={{ background: "#505050", borderRadius: 10 }}
+          className="ReqTime"
+          size="large"
+          onClick={requestTime}
+        >
+          Amongus
+        </Button>
+      </div>
     </div>
   );
 }

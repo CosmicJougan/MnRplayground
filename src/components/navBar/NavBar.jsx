@@ -45,7 +45,7 @@ export default function ResponsiveAppBar() {
   };
 
   useEffect(() => {
-    <Navigate to="/login" />
+    <Navigate to="/login" />;
   }, []);
 
   const [state, dispatch] = useContext(LoginContext);
@@ -53,7 +53,7 @@ export default function ResponsiveAppBar() {
   if (state.isAuthenticated !== false) {
     return (
       <div className="naviBar">
-        <AppBar position="static" style={{ background: "#009da5" }}>
+        <AppBar position="static" style={{ background: "#101010" }}>
           <Container maxWidth="xl">
             <Toolbar disableGutters>
               {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
@@ -322,7 +322,7 @@ export default function ResponsiveAppBar() {
   } else {
     return (
       <div className="naviBar">
-        <AppBar position="static" style={{ background: "#009da5" }}>
+        <AppBar position="static" style={{ background: "#101010" }}>
           <Container maxWidth="xl">
             <Toolbar disableGutters>
               {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}

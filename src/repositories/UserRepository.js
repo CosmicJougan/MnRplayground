@@ -39,7 +39,7 @@ export const getUsers = async () => {
     return users;
   } else {
     querySnapshot.forEach((doc) => {
-      console.log("Ik heb effectief data");
+      console.log({ ...doc.data(), Id: doc.id });
       users.push({ ...doc.data(), Id: doc.id });
     });
   }
